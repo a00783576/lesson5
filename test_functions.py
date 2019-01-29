@@ -7,7 +7,7 @@ class TestFunctions(unittest.TestCase):
     """ Test add_values
     """
     def setUp(self):
-        self.value1 = 15
+        self.value1 = 10
         self.value2 = 20
 
     def test_add_values(self):

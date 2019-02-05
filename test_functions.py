@@ -8,7 +8,7 @@ class TestFunctions(unittest.TestCase):
     """
     def setUp(self):
         self.value1 = 10
-        self.value2 = 20
+        self.value2 = 25
 
     def test_add_values(self):
         self.assertEqual(30, add_two_values(self.value1, self.value2))
